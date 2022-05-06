@@ -1,0 +1,31 @@
+main {
+    grid-template: repeat(6, 1fr) / 1fr 1fr;
+    grid-template-areas: 
+    "logo logo"
+    "logo logo"
+    "search search"
+    "shortcut customize"
+    "shortcut customize"
+    "shortcut customize";
+}
+
+.logo-container {
+    grid-area: logo;
+}
+
+.search-container {
+    grid-area: search;
+    width: 440px;
+}
+
+.shortcut-container {
+    grid-area: shortcut;
+    place-self: center;
+    margin-bottom: 100px;
+}
+
+.customize {
+    grid-area: customize;
+    place-self: center;
+    margin-bottom: 100px;
+}

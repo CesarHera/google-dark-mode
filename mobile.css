@@ -1,0 +1,32 @@
+header {
+    order: 30;
+}
+
+main {
+    grid-template: 1fr 170px 60px 2fr / 1fr;
+    grid-template-areas: unset;
+    order: 20;
+}
+
+.logo-container {
+    grid-area: unset;
+    align-self: center;
+    margin-bottom: -7px;
+}
+
+.search-container {
+    grid-area: unset;
+    align-self: start;
+    width: 337px;
+}
+
+.shortcut-container {
+    align-self: start;
+    grid-area: unset;
+}
+
+.customize {
+    grid-area: unset;
+    order: -1;
+    place-self: start;
+}
