@@ -17,7 +17,8 @@ main {
 .search-container {
     grid-area: unset;
     align-self: start;
-    width: 337px;
+    width: unset;
+    width: 100%;
 }
 
 .shortcut-container {
